@@ -27,7 +27,7 @@ try:
     
     with st.spinner("Loading model..."):
         vectorizer, model = load_model()
-    st.success("Model loaded successfully.")
+    #st.success("Model loaded successfully.")
     
 except Exception as e:
     st.error(f"Failed to load model: {e}")

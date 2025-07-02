@@ -9,19 +9,19 @@ The app provides a clean user interface to input any message, and the model will
 ![App Screenshot](./screenshot.png)
 
 ##Streamlit Link 
-https://abunda-teves-spamdetection.streamlit.app/
+https://teves-abunda-spamclassification.streamlit.app/
 
 
 ## How to Set Up Locally
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/spam-detector-app.git
-cd spam-detector-app
+git clone https://github.com/paul36bonep/spam_classificationv2.git
+cd spam_classificationv2
 
 ### 2. Create & Activate Virtual Environment
 
-python -m venv venv
+py 3.10 -m venv venv
 
 ### Activate it:
 
@@ -36,4 +36,4 @@ pip install -r requirements.txt
 
 ### Run the App
 
-streamlit run main.py"# spam_classificationv2" 
+streamlit run main.py
